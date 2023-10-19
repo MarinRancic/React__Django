@@ -1,0 +1,72 @@
+.user_list_item td {
+  position: relative;
+  border: 1px solid white;
+  text-align: center;
+  word-break: break-word;
+  padding: 0.5rem;
+}
+
+.user_list_item td:not(.icons, .user_list_item__verified, .user_list_item__role) {
+  width: 20%;
+}
+
+.user_list__donate_icon {
+  position: absolute;
+  left: 0.5rem;
+  color: rgb(25, 25, 107);
+}
+
+.user_list__adoption_icon {
+  position: absolute;
+  right: 0.5rem;
+  color: rgb(25, 25, 107);
+}
+
+.user_list__donate_icon:hover,
+.user_list__adoption_icon:hover {
+  cursor: pointer;
+}
+
+.user_list_item__delete:hover,
+.user_list_item__edit:hover,
+.user_list_item__submit:hover {
+  cursor: pointer;
+}
+
+.user_list_item .icons > * + * {
+  padding-left: 0.5rem;
+}
+
+.user_list_item .icons > * {
+  color: rgb(25, 25, 107);
+}
+
+.user_list_item .icons > *:hover {
+  cursor: pointer;
+}
+
+.user_list_item .icons {
+  width: 10%;
+}
+
+.user_list_item td input {
+  text-align: center;
+  border: none;
+  background-color: rgb(25, 25, 107);
+  color: white;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.user_list_item__role{
+  width: 10%;
+}
+
+.user_list_item__role select {
+  text-align: center;
+  border: none;
+  background-color: rgb(25, 25, 107);
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+}

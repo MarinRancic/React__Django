@@ -1,0 +1,25 @@
+.user_list {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.user_list thead {
+  background-color: rgb(25, 25, 107);
+  color: white;
+}
+
+.user_list table {
+  border-collapse: collapse;
+}
+
+.no_items {
+  color: rgb(187, 89, 89);
+  text-align: center;
+  text-shadow: 1px 1px 10px rgb(250, 168, 168);
+  font-size: 2rem;
+  font-weight: 600;
+}

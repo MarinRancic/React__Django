@@ -1,0 +1,32 @@
+.veterinarians {
+    min-height: 100vh;
+    padding: 20vh 0vh 10vh 0vh;
+}
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+  
+  .pagination li {
+    font-size: large;
+    font-weight: 600;
+    padding:0.5rem;
+    margin:0.25rem;
+  }
+  
+  .pagination li:hover {
+    cursor: pointer;
+  }
+  
+  .pagination_active {
+    background-color: rgb(74, 204, 204);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px black;
+  }
+  
+  .pagination_disable {
+    visibility: hidden;
+  }

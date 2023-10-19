@@ -1,0 +1,129 @@
+.adopted_details_item {
+  min-height: 100vh;
+  padding: 20vh 0vh 10vh 0vh;
+}
+
+.adopted_details_item__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 27vw;
+  margin: auto;
+  box-shadow: -1px 1px 10px #33bcdf;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.adopted_details_item__form p {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  margin-bottom: -0.75rem;
+}
+
+.adopted_details_item__form label {
+  margin-right: 0.5rem;
+}
+
+.adopted_details_item__picture {
+  max-width: 25vw;
+  max-height: 35vh;
+}
+
+.adopted_details_item__picture input {
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.adopted_details_item__picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.adopted_details_item__info {
+  display: flex;
+  margin-top:2rem;
+}
+
+.adopted_details_item__info textarea{
+  max-width: 55rem;
+  word-break: break-all;
+  letter-spacing: 1px;
+  padding: 2px 5px;
+  border-radius: 0.5rem;
+  border:none;
+  width: 20vw;
+  height: 10vh;
+}
+
+.adopted_details_item__name input {
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 2px 5px;
+  margin-bottom: 2rem;
+}
+
+.adopted_details_item__active {
+  margin-top: 2rem;
+}
+
+.adopted_details_item__active label {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.adopted_details_item__active input {
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  padding: 3px 5px;
+  width: 270px;
+}
+
+.adopted_details_item__active .active {
+  background-color: green;
+}
+
+.adopted_details_item__active .inactive {
+  background-color: rgba(209, 21, 21, 0.767);
+}
+
+.adopted_details_item__edit {
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0rem 0.5rem;
+  font-weight: 600;
+  align-self: center;
+}
+
+.adopted_details_item__back {
+  text-decoration: none;
+  font-size:1.1rem;
+  font-weight: 600;
+  margin-left: 35%;
+}
+
+.adopted_details_item__success{
+  color: green;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.adopted_details_item__error {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}

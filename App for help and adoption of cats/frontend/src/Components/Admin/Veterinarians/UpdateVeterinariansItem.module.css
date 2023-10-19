@@ -1,0 +1,102 @@
+.update_veterinarians_item {
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.update_veterinarians_item_form {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 60vw;
+  margin: auto;
+  border-radius: 1rem;
+  box-shadow: -1px 1px 10px #33bcdf;
+  padding: 1rem;
+}
+
+.x {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.x:hover {
+  cursor: pointer;
+}
+
+.update_veterinarians_item_form_left {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+}
+
+.update_veterinarians_item_form_left #working_hours {
+  margin-top: 1.5rem;
+}
+
+.update_veterinarians_item_form label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.update_veterinarians_item_form input {
+  margin-bottom: 1rem;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1px 5px;
+  font-size: 1rem;
+}
+
+.update_veterinarians_item_form_right textarea {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1px 5px;
+}
+
+.update_veterinarians_item_form_right iframe {
+  margin-top: 4rem;
+  width: 30vw;
+  height: 30vh;
+  border: none;
+}
+
+.update_veterinarians_item_form_right__iframe{
+  display: flex;
+  margin-top: 2rem;
+  width: 30vw;
+  height: 7vw;
+}
+
+.update_veterinarians_item_form button {
+  grid-column: span 2;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  justify-self: center;
+  width: 5rem;
+  height: 2rem;
+  margin: 1rem 0rem;
+  font-weight: 600;
+}
+
+.update_veterinarians_item__success{
+  color: green;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.update_veterinarians_item__error {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}

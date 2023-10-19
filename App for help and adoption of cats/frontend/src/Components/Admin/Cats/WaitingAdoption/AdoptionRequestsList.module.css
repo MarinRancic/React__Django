@@ -1,0 +1,45 @@
+.adoption_requests_list {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.adoption_requests_list thead {
+    background-color: rgb(25, 25, 107);
+    color: white;
+}
+
+.adoption_requests_list table{
+    border-collapse: collapse;
+}
+
+.adoption_requests_list td {
+    border: 1px solid white;
+    text-align: center;
+    max-width: 200px;
+    min-width: 20px;
+    overflow-wrap: break-word;
+    padding: 0.5rem;
+}
+
+.no_items {
+    color: rgb(187, 89, 89);
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(250, 168, 168);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+.icons > * + * {
+    padding-left: 0.5rem;
+}
+
+.icons > * {
+    color:rgb(25, 25, 107);
+}
+
+.icons > *:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+.new_auction_item {
+  display: flex;
+  flex-direction: column;
+  width:30%;
+  justify-content: center;
+  margin: auto;
+  min-width: 35rem;
+  margin-bottom: 5rem;
+}
+
+.new_auction_item .create_button {
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0rem 0.5rem;
+  font-weight: 600;
+  align-self: center;
+}
+
+.new_auction_item .view_items_button {
+  border-radius: 0.5rem;
+  border: 2px solid #33bcdf;
+  box-shadow: 1px 1px 30px #33bcdf;
+  width: 10rem;
+  height: 2rem;
+  align-self: center;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.new_auction_item form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 1.25rem;
+  border-radius: 1rem;
+  box-shadow: -1px 1px 10px #33bcdf;
+  padding: 1rem;
+}
+
+.new_auction_item form input {
+  border-radius: 0.5rem;
+  border: none;
+  width: 190px;
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+.new_auction_item form label {
+  margin-left: 0.25rem;
+  margin-right: 1rem;
+}
+
+.new_auction_item__form__picture {
+  display: flex;
+  margin: 1.5rem auto;
+  width: 24vw;
+  height: 35vh;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.new_auction_item__form__picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.new_auction_item__form__prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 50px;
+}
+
+.new_auction_item__form__prices input {
+  max-width: 4rem;
+}
+
+.new_auction_item__form__prices input,
+.new_auction_item__form__prices label {
+  font-size: 1.1rem;
+}
+
+.new_auction_item__success{
+  color: green;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.new_auction_item__error {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}

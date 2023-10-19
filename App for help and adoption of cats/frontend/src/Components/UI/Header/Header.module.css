@@ -1,0 +1,144 @@
+.header {
+    transition:0.3s;
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index:999;
+    background-color: transparent;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.header a{
+    text-decoration: none;
+    color:#964265;
+    font-weight: 500;
+    font-size: 1.125rem;
+    font-family: 'Mukta', sans-serif;
+}
+
+.header a:hover {
+    cursor: pointer;
+}
+
+.header__users{
+    margin-right: 10rem;
+}
+
+.scrollLinks .header__users{
+    margin-right: 8rem;
+    transition: 0.3s ease;
+}
+
+.scroll {
+    transition: 0.3s;
+    background-color: #003747;
+    padding: 0 10rem;
+    height: 8vh;
+}
+
+.scrollLinks a{
+    color:#C0FAFF;
+    font-weight: 400;
+}
+
+.logo {
+    max-height: inherit;
+    max-width: inherit;
+}
+
+.logo:hover{
+    cursor:pointer;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.links a:active,
+.links a.active {
+    color:#910606;
+    padding-top: 1px;
+    border-bottom: 1px solid #910606; 
+}
+
+.links a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #910606;
+    transition: width .3s;
+}
+
+.links a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.scrollLinks a:active,
+.scrollLinks a.active{
+    font-weight: 400;
+    color: #dd6597;
+    padding-top: 1px;
+    border-bottom: 1px solid #dd6597;
+}
+
+.scrollLinks a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #dd6597;
+    transition: width .3s;
+}
+
+.scrollLinks a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.links li {
+    list-style-type: none;
+    display: flex;
+    padding: 0 2rem;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown_menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+    box-shadow: -1px 1px 10px #33bcdf;
+    padding: 0;
+    width: 12.3rem;
+    left: 0;
+    top:2rem;
+}
+
+.scrollLinks .dropdown_menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+    background-color: #003747;
+    box-shadow: -1px 1px 10px #33bcdf;
+    padding: 0;
+    width: 12.3rem;
+    left: 0;
+    top:2rem;
+}

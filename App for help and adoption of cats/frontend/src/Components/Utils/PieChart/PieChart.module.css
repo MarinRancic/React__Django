@@ -1,0 +1,25 @@
+.pie_chart {
+    width: 55%;
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.pie_chart select {
+    background-color: rgb(25, 25, 107);
+    color: white;
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.pie_chart__total {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(25, 25, 107);
+    text-shadow: 1px 1px 10px rgb(52, 179, 151);
+}

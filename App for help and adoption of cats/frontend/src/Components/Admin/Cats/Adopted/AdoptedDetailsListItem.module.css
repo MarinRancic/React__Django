@@ -1,0 +1,43 @@
+.adopted_details_list_item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 1px 10px #33bcdf;
+  border-radius: 1rem;
+}
+
+.adopted_details_list_item__name {
+  font-weight: 600;
+  padding-top: 0.25rem;
+}
+
+.adopted_details_list_item__picture {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+  width: 14rem;
+  height: 10rem;
+}
+
+.adopted_details_list_item__picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.adopted_details_list_item__picture img:hover {
+  cursor: pointer;
+}
+
+.x {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.25rem;
+}
+
+.x:hover {
+  cursor: pointer;
+}

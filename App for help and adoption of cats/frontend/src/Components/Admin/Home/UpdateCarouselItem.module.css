@@ -1,0 +1,129 @@
+.carousel_details_item {
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.carousel_details_item_form {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  max-width: 53vw;
+  margin: auto;
+  border-radius: 1rem;
+  box-shadow: -1px 1px 10px #33bcdf;
+  padding: 3rem;
+}
+
+.carousel_details_item input {
+  margin-left: 2rem;
+}
+
+.carousel_details_item textarea {
+  min-width: 23vw;
+  min-height: 13vh;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.carousel_details_item_form #submit_button {
+  grid-column: span 2;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  justify-self: center;
+  width: 5rem;
+  height: 2rem;
+  margin: 3rem 0rem 0.5rem;
+  font-weight: 600;
+}
+
+.carousel_details_item form button:hover {
+  cursor: pointer;
+}
+
+.carousel_details_item__link .active {
+  background-color: green;
+}
+
+.carousel_details_item__link .inactive {
+  background-color: rgba(209, 21, 21, 0.767);
+}
+
+.carousel_details_item label {
+  margin-left: 0.25rem;
+  margin-right: 1rem;
+}
+
+.carousel_details_item__link {
+  margin-top: 1.5rem;
+}
+
+.carousel_details_item__link input {
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  width: 270px;
+  padding: 3px 5px;
+  margin-top: 0.75rem;
+  margin-left: 0rem;
+}
+
+.carousel_details_item hr {
+  margin-top: 5rem;
+  max-width: 90vw;
+  box-shadow: 1px 1px 10px #33bcdf;
+}
+
+.carousel_details_item_form_left select {
+  margin-top: 2rem;
+  width: 100px;
+  border: none;
+}
+
+.carousel_details_item_form_right__image {
+  display: flex;
+  margin: 1.25rem;
+  width: 24vw;
+  height: 25vh;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.carousel_details_item_form_right__image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.x {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.x:hover {
+  cursor: pointer;
+}
+
+.carousel_details_items__success{
+  color: green;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.carousel_details_items__error {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}

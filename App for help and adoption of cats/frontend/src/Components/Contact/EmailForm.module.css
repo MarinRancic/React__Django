@@ -1,0 +1,73 @@
+.email_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 1px 10px #33bcdf;
+  border-radius: 1rem;
+  width: 33vw;
+  margin: auto;
+}
+
+.email_form input {
+  display: flex;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.1rem;
+}
+
+.email_form__message {
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  width: 100%;
+  margin-top:2rem;
+}
+
+.email_form__message textarea {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+.email_form__message textarea::placeholder {
+  font-size: 1.05rem;
+}
+
+.email_form__submit {
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  padding: 2px 10px;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  box-shadow: 3px 3px 10px rgb(10, 78, 32);
+  margin: 2rem 0;
+}
+
+.email_form button:hover {
+  transition: 0.3s ease;
+  box-shadow: 3px 3px 10px rgb(68, 66, 202);
+}
+
+.email_form__success{
+  color: green;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.email_form__error {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem 0;
+}

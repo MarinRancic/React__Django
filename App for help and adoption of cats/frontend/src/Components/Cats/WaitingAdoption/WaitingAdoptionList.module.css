@@ -1,0 +1,20 @@
+.waiting_adoption_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.no_items {
+    color: rgb(187, 89, 89);
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(250, 168, 168);
+    font-size: 2rem;
+    font-weight: 600;
+    grid-column: span 4;
+  }

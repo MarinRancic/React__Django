@@ -1,0 +1,20 @@
+.change_carousel_info {
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+}
+
+.change_carousel_info button {
+    background-color: #7C9ACF;
+    color: #FFE9CF;
+    box-shadow: 1px 1px 5px #7C9ACF;
+    border-radius: 0.75rem;
+    border: none;
+    font-size: 1.15rem;
+    padding: 4px;
+}
+
+.change_carousel_info button:hover {
+    background-color: rgb(97, 97, 250);
+}

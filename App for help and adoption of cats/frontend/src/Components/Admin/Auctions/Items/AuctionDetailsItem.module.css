@@ -1,0 +1,112 @@
+.auction_details_item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  box-shadow: -1px 1px 10px #33bcdf;
+  border-radius: 1.25rem;
+  max-height: 120vh;
+  max-width: 60vw;
+}
+
+.auction_details_item__form__picture {
+  display: flex;
+  margin: 1.25rem;
+  width: 24vw;
+  height: 30vh;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.auction_details_item__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auction_details_item__form__prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 50px;
+}
+
+.auction_details_item__form__prices__starting_price,
+.auction_details_item__form__prices__bid_price{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.auction_details_item__form__prices input {
+  max-width: 4rem;
+}
+
+.auction_details_item__form__prices input,
+.auction_details_item__form__prices label {
+  font-size: 1.1rem;
+}
+
+.auction_details_item__form label {
+  margin-right: 0.5rem;
+}
+
+.auction_details_item form input {
+  border-radius: 0.5rem;
+  border: none;
+  width: 190px;
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+.auction_details_item .update_button {
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0rem 0.5rem;
+  font-weight: 600;
+}
+
+.auction_details_item__form__picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.auction_details_item__form__auctions {
+  margin-top: 2rem;
+}
+
+.auction_details_item__form__auctions select {
+  font-size: 1rem;
+  border: none;
+}
+
+.auction_details_item__form__bid_holder {
+  margin-top: 2rem;
+}
+
+.auction_details_item__success{
+  color: green;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.auction_details_item__error {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}

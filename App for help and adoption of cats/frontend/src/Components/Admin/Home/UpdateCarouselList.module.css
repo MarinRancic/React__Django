@@ -1,0 +1,7 @@
+.carousel_details_list p {
+    color: rgb(187, 89, 89);
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(250, 168, 168);
+    font-size: 2rem;
+    font-weight: 600;
+}

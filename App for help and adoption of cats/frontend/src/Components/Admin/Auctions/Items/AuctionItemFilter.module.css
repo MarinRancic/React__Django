@@ -1,0 +1,24 @@
+.auction_item_filters {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 14%;
+  margin-top: 3rem;
+}
+
+.auction_item_filters button {
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  padding: 0.1rem 0.5rem;
+  color: black;
+  background-color: inherit;
+  box-shadow: -1px 1px 10px #33bcdf;
+  white-space: nowrap;
+}
+
+.auction_item_filters .active {
+  background-color: rgb(25, 25, 107);
+  color: white;
+  box-shadow: -1px 1px 10px rgb(25, 25, 107);
+}

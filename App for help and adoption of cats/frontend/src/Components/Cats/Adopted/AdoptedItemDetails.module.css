@@ -1,0 +1,41 @@
+.adopted_item_details {
+  min-height: 100vh;
+  padding: 20vh 0vh 10vh 0vh;
+}
+
+.adopted_item_details__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adopted_item_details__picture {
+  width: 20vw;
+  height: 25vh;
+}
+
+.adopted_item_details__picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.adopted_item_details__info {
+  margin-top: 5rem;
+  max-width: 55rem;
+  padding: 0 1rem;
+  text-align: center;
+  letter-spacing: 1px;
+  white-space: pre-line;
+  border-width: 2px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(80, 82, 207), 
+      rgba(255, 255, 255, 0)
+    ) 1 100%;
+  
+}

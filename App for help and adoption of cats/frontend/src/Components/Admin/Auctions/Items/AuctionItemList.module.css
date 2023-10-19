@@ -1,0 +1,16 @@
+.auction_item_list {
+    margin-bottom: 5rem;
+}
+
+.auction_items{
+    display: grid;
+    width: 60vw;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:5rem;
+}
+
+
+
+  

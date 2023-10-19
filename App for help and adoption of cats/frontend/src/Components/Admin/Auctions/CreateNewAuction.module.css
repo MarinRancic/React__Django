@@ -1,0 +1,111 @@
+.new_auction {
+  display: flex;
+  max-width: 100%;
+  min-height: 10rem;
+  justify-content: center;
+}
+
+.new_auction__form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 1.25rem;
+  min-width: 35rem;
+  border-radius: 1rem;
+  box-shadow: -1px 1px 10px #33bcdf;
+  padding: 1rem;
+}
+
+.new_auction__form__start label,
+.new_auction__form__end label{
+  margin-right: 1rem;
+}
+
+.new_auction__form__start input,
+.new_auction__form__end input {
+  border-radius: 0.75rem;
+  border: none;
+  font-size: 0.9rem;
+  padding: 2px;
+}
+
+.new_auction__form__start {
+  margin-bottom: 0.75rem;
+  margin-left: -5px;
+}
+
+.new_auction__form textarea {
+  width: 20vw;
+  height: 7vh;
+  border-radius: 0.75rem;
+  font-size: 0.85rem;
+  padding: 0.5rem;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+
+.new_auction__form button {
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0rem 0.5rem;
+  font-weight: 600;
+  align-self: center;
+}
+
+.new_auction__archive {
+  position: absolute;
+  right: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 7rem;
+  min-height: 10rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  box-shadow: -1px 1px 10px #33bcdf;
+  padding: 1rem;
+  gap:2px;
+}
+
+.new_auction__archive h3 {
+  margin-bottom: 0.5rem;
+}
+
+.new_auction__archive a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.new_auction__archive:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.link__active {
+  color: green;
+}
+
+.link__inactive {
+  color:rgb(221, 76, 76);
+}
+
+.new_auction__success {
+  display: flex;
+  color: green;
+  text-shadow: 1px 1px 1px black;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.new_auction__error {
+  display: flex;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}

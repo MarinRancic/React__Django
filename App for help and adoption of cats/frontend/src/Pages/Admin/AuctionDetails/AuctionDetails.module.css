@@ -1,0 +1,15 @@
+.auction_details {
+  min-height: 100vh;
+  padding-top: 25vh;
+}
+
+.auction_details h2 {
+  text-align: center;
+}
+
+.auction_details hr {
+  max-width: 90vw;
+  box-shadow: 1px 1px 10px #33bcdf;
+  margin: auto;
+  margin: 5rem;
+}

@@ -1,0 +1,62 @@
+.carousel {
+    padding-bottom: 18vh;
+    padding-top: 25vh;
+}
+/* #85CEE1 */
+.home {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home h1 {
+    max-width: 40%;
+    text-align: center;
+}
+
+.home section {
+    max-width: 40%;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.shelter {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    background: linear-gradient(#bb547f,#75334f );
+    padding-bottom: 5rem;
+}
+
+.shelter__card {
+    display: grid;
+    min-height: 80vh;
+    max-width: 45vw;
+    margin: 2rem;
+    grid-template-rows: 65% 35%;
+}
+
+.shelter__text{
+   text-align: center;
+   color:white;
+}
+
+.shelter__text button {
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    border: none;
+    box-shadow: 1px 2px 10px #330b1c;
+    margin-top: 1rem;
+}
+
+.shelter__text button a {
+    text-decoration: none;
+}
+
+.shelter__pic{
+    background-image: url("./Images/shelter.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}

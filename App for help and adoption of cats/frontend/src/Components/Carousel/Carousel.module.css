@@ -1,0 +1,68 @@
+.carousel {
+    position: relative;
+    display: flex;
+    min-height: 50vh;
+    max-width: 50vw;
+    padding: 0;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in 0.2s;
+}
+
+.carousel button {
+    min-height: 3rem;
+    min-width: 3rem;
+    border-radius: 50%;
+    top: 50%;
+    border-width: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.leftArrow {
+    margin-left: 1rem;
+    background-color: #aae3f1;
+    border-color: transparent;
+    z-index: 1;
+}
+
+.leftArrow:active, .leftArrow:hover {
+    background-color: #7C9ACF;
+}
+
+.rightArrow {
+    margin-right: 1rem;
+    background-color: #aae3f1;
+    border-color: transparent;
+    z-index: 1;
+}
+
+.rightArrow:active, .rightArrow:hover {
+    background-color: #7C9ACF;
+}
+
+.points {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    min-width: 5vw;
+    margin-top: 0.5rem;
+}
+
+.points button{
+    border-width: 1px;
+    min-height: 1rem;
+    min-width: 1rem;
+    background-color: #aae3f1;
+}
+
+.points button.active,
+.points button:hover {
+    background-color: #7C9ACF;
+}

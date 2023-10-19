@@ -1,0 +1,41 @@
+.modal_overlay {
+  position: fixed;
+  left: 35%;
+  right: 35%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 30vh;
+  z-index: 100;
+  overflow: hidden;
+  background-color: #082630;
+  color: white;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+}
+
+.modal_overlay__buttons {
+    display: flex;
+    gap:1rem;
+}
+
+.modal_overlay__buttons button {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #082630;
+    color: white;
+    box-shadow: 1px 1px 1px white;
+}
+
+.modal_overlay__buttons__confirm:hover {
+    box-shadow: 1px 1px 20px rgb(59, 124, 59);
+    transition: 0.3s ease;
+}
+
+.modal_overlay__buttons__cancel:hover {
+    box-shadow: 1px 1px 20px red;
+    transition: 0.3s ease;
+}

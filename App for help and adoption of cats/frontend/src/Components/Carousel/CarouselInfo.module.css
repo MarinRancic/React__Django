@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.text,
+.text__link {
+    display: flex;
+    position: absolute;
+    max-width: 40vw;
+    min-width: 40vw;
+    min-height: 10vh;
+    left:10%;
+    bottom:-10%;
+    background-color: #7C9ACF;
+    color: #FFE9CF;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 3px 5px 15px #965E92;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.text__link:hover{
+    cursor: pointer;
+}
+
+.linkIcon {
+    position: inherit;
+    bottom:0;
+    right:0;
+}

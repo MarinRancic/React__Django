@@ -1,0 +1,64 @@
+.add_new_veterinarian_form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 60vw;
+  margin: auto;
+  border-radius: 1rem;
+  box-shadow: -1px 1px 10px #33bcdf;
+  padding: 1rem;
+}
+
+.add_new_veterinarian_form button {
+  grid-column: span 2;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  justify-self: center;
+  width: 5rem;
+  height: 2rem;
+  margin: 1rem 0rem;
+  font-weight: 600;
+}
+
+.add_new_veterinarian_form_left {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+}
+
+.add_new_veterinarian_form_left textarea {
+  height: 4rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1px 5px;
+}
+
+.add_new_veterinarian_form_left p {
+  margin: 0;
+  margin-top: 3rem;
+  background-color: #76dbf5;
+  max-width: 23vw;
+  border-radius: 0.5rem;
+}
+
+.add_new_veterinarian_form_right {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+}
+
+.add_new_veterinarian_form label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.add_new_veterinarian_form input {
+  margin-bottom: 1rem;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1px 5px;
+  font-size: 1rem;
+}

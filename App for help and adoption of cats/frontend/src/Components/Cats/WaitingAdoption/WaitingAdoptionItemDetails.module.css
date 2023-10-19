@@ -1,0 +1,80 @@
+.waiting_adoption_item_details {
+  min-height: 100vh;
+  padding: 20vh 0vh 10vh 0vh;
+}
+
+.waiting_adoption_item_details__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.waiting_adoption_item_details__picture {
+  width: 20vw;
+  height: 25vh;
+}
+
+.waiting_adoption_item_details__picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.waiting_adoption_item_details__info {
+  margin-top: 5rem;
+  max-width: 55rem;
+  text-align: center;
+  padding: 0 1rem;
+  letter-spacing: 1px;
+  white-space: pre-line;
+  border-width: 2px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(80, 82, 207), 
+      rgba(255, 255, 255, 0)
+    ) 1 100%;
+}
+
+.waiting_adoption_item_details__card textarea {
+  border: none;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  width: 25vw;
+  height: 10vh;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.waiting_adoption_item_details__card textarea::placeholder {
+  font-size: 1rem;
+}
+
+.waiting_adoption_item_details__button {
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  padding: 2px 10px;
+  margin-top: 0.5rem;
+  box-shadow: 3px 3px 10px rgb(10, 78, 32);
+}
+
+.waiting_adoption_item_details__button:hover {
+  transition: 0.3s ease;
+  box-shadow: 3px 3px 10px rgb(68, 66, 202);
+}
+
+.waiting_adoption_item_details__error {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.1rem;
+}
+
+.waiting_adoption_item_details__success {
+  color: green;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.1rem;
+}
